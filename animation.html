@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <link rel="stylesheet" type="text/css" href="animation.css">
+    <script src="main.js"></script>
+  <body>
+    <div id="sun">
+      <form id="form">
+    <input id="username" type="text" placeholder="Username.."></input>
+    <input id="password" type="text" placeholder="Password.."></input>
+    <button id="enterButton" onclick="clear()">Enter</button>
+  </form>
+  </div>
+
+<div id="earth-orbit">
+    <div id="earth"></div>
+    <div id="earth2"></div>
+    <div id="earth3"></div>
+    <div id="earth4"></div>
+    <div id="moon-orbit">
+        <div class="moon-holder">
+            <div id="moon"></div>
+        </div>
+    </div>
+</div>
+
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+  <strong>Incorrect Password.</strong> Contact admin if you have problems logging in.
+</div>
+
+
+  </body>
+</html>
